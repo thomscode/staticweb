@@ -8,4 +8,5 @@ RUN echo 'Hi, I am in your container' \
 
 CMD [ "nginx", "-g", "daemon off;" ]
 
+# Expose the default http port
 EXPOSE 80
